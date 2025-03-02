@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.21.0/dist/full.css" rel="stylesheet">
+</head>
+<body class="bg-blue-50 p-6 min-h-screen">
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center p-4 bg-white rounded-lg shadow-md">
+        <div class="flex items-center space-x-3">
+            <img src="assets/logo.png" alt="Logo" class="w-10 h-10">
+            <h1 class="text-xl font-bold text-blue-600">DevBoard</h1>
+        </div>
+            <div class="w-10 rounded-full ring-2 ring-blue-600">
+                <img src="assets/theme-btn.png" alt="Profile" class="rounded-full">
+            </div>
+        </div>
+    </nav>
+    <div>
+        <h1 class="text-center text-black text-3xl">Blog</h1>
+    </div>
+
+    <div class="container mx-auto p-4">
+        <!-- Q1 -->
+        <div class="bg-gray-100 p-4 rounded-md shadow-md mb-4">
+          <h2 class="text-lg font-semibold text-blue-500">Question 1: What are the different ways to select an element in the DOM?</h2>
+          <p class="mt-2 text-gray-700">
+            1. <code>getElementById()</code><br>
+            2. <code>getElementsByClassName()</code><br>
+            3. <code>getElementsByTagName()</code><br>
+            4. <code>querySelector()</code><br>
+            5. <code>querySelectorAll()</code>
+          </p>
+        </div>
+      
+        <!-- Q2 -->
+        <div class="bg-gray-100 p-4 rounded-md shadow-md mb-4">
+          <h2 class="text-lg font-semibold text-blue-500">Question 2: What is the difference between innerHTML, innerText, and textContent?</h2>
+          <p class="mt-2 text-gray-700">
+            <strong>innerHTML</strong>: Gets or sets the HTML markup inside an element.<br>
+            <strong>innerText</strong>: Gets or sets the text considering CSS display styles.<br>
+            <strong>textContent</strong>: Gets or sets the plain text inside an element.
+          </p>
+        </div>
+      
+        <!-- Q3 -->
+        <div class="bg-gray-100 p-4 rounded-md shadow-md mb-4">
+          <h2 class="text-lg font-semibold text-blue-500">Question 3: What is event delegation in the DOM?</h2>
+          <p class="mt-2 text-gray-700">
+            Event delegation is a technique where a single event listener is used for a parent element to manage events from child elements, improving performance.
+          </p>
+        </div>
+      
+        <!-- Q4 -->
+        <div class="bg-gray-100 p-4 rounded-md shadow-md mb-4">
+          <h2 class="text-lg font-semibold text-blue-500">Question 4: What is event bubbling in the DOM?</h2>
+          <p class="mt-2 text-gray-700">
+            Event bubbling refers to the event propagation in which an event moves from the deepest target element upwards to the parent elements.
+          </p>
+        </div>
+      
+        <!-- Q5 -->
+        <div class="bg-gray-100 p-4 rounded-md shadow-md mb-4">
+          <h2 class="text-lg font-semibold text-blue-500">Question 5: How do you create, add, and remove elements using JavaScript?</h2>
+          <p class="mt-2 text-gray-700">
+            - <strong>Create</strong>: <code>document.createElement()</code><br>
+            - <strong>Add</strong>: <code>appendChild()</code> or <code>insertBefore()</code><br>
+            - <strong>Remove</strong>: <code>removeChild()</code> or <code>remove()</code>
+          </p>
+        </div>
+      </div>
+      
+    
+</body>
+</html>
